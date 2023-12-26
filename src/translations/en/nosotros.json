@@ -1,0 +1,44 @@
+{
+    "sesions": {
+        "us": "About us?",
+        "weAre": "Frutandina S.A. is a family business which started back in 1961. The aim of the company is to produce high-quality raisins, which will later be sent to international markets with high demands. "
+    }, 
+
+    "certificaciones": {
+        "title": "CERTIFICATIONS",
+        "body": "The quality and safety of our products are two fundamental aspects for Frutandina S.A. That is why we work with the highest food safety standards, and our production processes are certified with the (AA) grade, which is the highest qualification of the BRCGS Food standard. ",
+        "reconocimientos": "Recognitions: Gold Mention - 'XV Edition of the Provincial Quality Award' - Private Companies Sector Supplier Goods",
+        "sello1": "BRCGS Food FISMA modules",
+        "sello2": "Argentine Food A Natural Choice",
+        "sello3": "Sedex Smeta standards (standards of labour, health and safety, environmental performance, and ethics)"
+    },
+
+    "header": {
+        "somos": "OUR COMPANY", 
+        "productos": "PRODUCTS",
+        "contacto": "CONTACT"
+    },
+
+    "slogan": {
+        "1": "Since ",
+        "2": "1961",
+        "3": "exporting raisins",
+        "4": " to the world"
+    },
+
+    "footer": {
+        "contacto": "CONTACT",
+        "ubicacion": "location",
+        "mensaje": "leave us a message",
+        "seguinos": "Follow in"
+    },
+
+    "form": {
+        "Name": "Name",
+        "Contact": "Contact",
+        "Mensaje": "Write your message...",
+        "Enviar": "Send",
+        "Enviando": "Sending",
+        "Enviado": "Data has been sent."
+    }
+}

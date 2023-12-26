@@ -1,0 +1,47 @@
+{
+    "sesions": {
+        "us": "¿Quienes somos?",
+        "weAre": "Frutandina S.A. es una empresa familiar que tiene sus orígenes en el año 1961. La empresa está orientada a la elaboración de pasas de uva de calidad, con destino a mercados internacionales de alta exigencia."
+    },
+
+    "certificaciones": {
+        "title": "CERTIFICACIONES",
+        "body": "La calidad e inocuidad de nuestros productos son dos aspectos fundamentales para Frutandina S.A. Es por esto que trabajamos con los más altos estándares de seguridad alimentaria, y nuestros procesos productivos se encuentran certificados con el grado (AA.) que es la máxima calificación del standar BRCGS Food.", 
+        "reconocimientos": "Reconocimientos: Mención Bronce –“XIV Edición del Premio Provincial a la Calidad” - Sector Empresas Privadas Proveedoras de Bienes.",
+        "sello1": "BRCGS Food módulos FISMA",
+        "sello2": "Sellos Alimentos Argentinos",
+        "sello3": "Responsabilidad Social Sedex Smeta"
+    },
+
+    "header": {
+        "somos": "NOSOTROS", 
+        "productos": "PRODUCTOS",
+        "contacto": "CONTACTO"
+    },
+
+    "slogan": {
+        "1": "Desde ",
+        "2": "1961 ",
+        "3": "exportando pasas ",
+        "4": "al mundo"
+    },
+
+    "footer": {
+        "contacto": "CONTACTO",
+        "ubicacion": "UBICACIÓN",
+        "mensaje": "DEJANOS UN MENSAJE",
+        "seguinos": "SEGUINOS EN:"
+    },
+
+    "form": {
+        "Name": "Nombre",
+        "Contact": "Contacto",
+        "Mensaje": "Escribe tu mensaje...",
+        "Enviar": "Enviar",
+        "Enviando": "Enviando",
+        "Enviado": "Los datos han sido enviados"
+    }
+
+    
+
+}

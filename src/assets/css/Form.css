@@ -1,0 +1,67 @@
+.formulario { 
+    margin-top: 62px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+input {
+    width: 407px;
+    height: 35.288px;
+    flex-shrink: 0;
+    border-radius: 7.017px;
+    background: #EDECEC;
+    margin: 11px;
+    padding-left: 15px;
+    color: #898989;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+textarea {
+    width: 407px;
+    height: 241.504px;
+    flex-shrink: 0;
+    border-radius: 7.017px;
+    background: #EDECEC;
+    margin: 11px;
+    padding-left: 15px;
+    color: #898989;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    resize: none;
+}
+
+.enviar {
+    width: 143.853px;
+height: 40.802px;
+flex-shrink: 0;
+border-radius: 7.017px;
+background: #482809;
+text-align: center;
+color: #FDFDFD;}
+
+.enviado {
+    background-color: #43a047;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.divEnviar{
+    display: flex;
+}
+
+.requerido {
+    color: #fff;
+    text-align: start;
+}

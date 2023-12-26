@@ -1,0 +1,26 @@
+.presentaciones {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel {
+    width: 20%;
+    margin: 30px;
+}
+.carousel-indicators {
+    display: none;
+  }
+
+  .d-block {
+    width: 150px;
+  }
+
+.epigrafe {
+    font-size: 15px;
+    text-align: center;
+}
+.carousel-control-next, .carousel-control-prev {
+  display: none;
+}
+
+

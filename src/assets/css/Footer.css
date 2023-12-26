@@ -1,0 +1,106 @@
+@font-face {
+    font-family: lemon milk;
+    src: url(LEMONMILK-Regular.otf);
+}
+
+.deploy { 
+    width: 100px;
+}
+
+
+footer {    
+    background: #E96E16;
+    color: #fff;
+}
+
+.ig {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+.face {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+.a {
+    margin: 10px;
+}
+
+.linea {
+    width: 217px;
+    height: 1px;
+    background: #FFF;
+    margin: 8px 0 17px 0px;
+}
+
+h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: lemon milk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-center {
+    font-family: 'Poppins';
+    font-size: 16px;
+    background-color: #424242;
+    padding: 0;
+}
+
+.ubi {
+    margin-top: 163px;
+}
+
+p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.a-contacto {
+    color: #FFF;
+text-align: center;
+font-family: 'Poppins';
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+} 
+
+.frutandinalogoBlanco  {
+    width: 203px;
+    height: 73px;
+    flex-shrink: 0;
+    margin:  45px 0;
+}
+
+.col-footer {
+    margin-left: 110px;
+}
+
+.col-6-footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.cajafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
