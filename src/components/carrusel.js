@@ -17,7 +17,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 function UncontrolledExample() {
     return (
         <div className='presentaciones'>
-            <Carousel className='carrusel' controls>
+                <Carousel className='carrusel' controls>
         <Carousel.Item interval={2000} sid='tam'>
         <img className="d-block  w-100" src={CajasPto1} alt="Presentaciones"/>
             <h3 className='epigrafe'>Cajas de 10kg y 13,6kg. Marcas: Frutandina, Pasandina, Suriaexport, Rio Castaño.</h3>
@@ -49,23 +49,21 @@ function UncontrolledExample() {
             <h3 className='epigrafe'>Sachet de 50g, 100g, 200g y 500g. Marca Pasandina.</h3>
         </Carousel.Item>
     </Carousel>
-    <Carousel className='carrusel'>
-        <Carousel.Item interval={2000} sid='tam'>
-        <img className=" d-block  w-100" src={Clamshell} alt="Presentaciones"/>
-            <h3 className='epigrafe'>Clamshell de 150g y 250g. Marca Pasandina. </h3>
-        </Carousel.Item>
-        <Carousel.Item interval={2000} sid='tam'>
-        <img className=" d-block  w-100" src={Clamshell1} alt="Presentaciones" />
-            <h3 className='epigrafe'>Clamshell de 150g y 250g. Marca Pasandina.</h3>
-        </Carousel.Item>
-        <Carousel.Item interval={2000} sid='tam'>
-        <img className=" d-block  w-100" src={Clamshell2} alt="Presentaciones" />
-            <h3 className='epigrafe'>Clamshell de 150g y 250g. Marca Pasandina.</h3>
-        </Carousel.Item>
-    </Carousel>
-        </div>
-    
-    
+                    <Carousel className='carrusel'>
+                <Carousel.Item interval={2000} sid='tam'>
+                <img className=" d-block  w-100" src={Clamshell} alt="Presentaciones"/>
+                    <h3 className='epigrafe'>Clamshell de 150g y 250g. Marca Pasandina. </h3>
+                </Carousel.Item>
+                <Carousel.Item interval={2000} sid='tam'>
+                <img className=" d-block  w-100" src={Clamshell1} alt="Presentaciones" />
+                    <h3 className='epigrafe'>Clamshell de 150g y 250g. Marca Pasandina.</h3>
+                </Carousel.Item>
+                <Carousel.Item interval={2000} sid='tam'>
+                <img className=" d-block  w-100" src={Clamshell2} alt="Presentaciones" />
+                    <h3 className='epigrafe'>Clamshell de 150g y 250g. Marca Pasandina.</h3>
+                </Carousel.Item>
+            </Carousel>
+            </div>
     );
 }
 

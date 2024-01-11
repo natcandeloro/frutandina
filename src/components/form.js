@@ -53,8 +53,8 @@ return (
                 <div className="divEnviar"><input type="submit" value={t("form.Enviar")} className="enviar"/></div>
                 
         </form>
-        {loading && <p className="enviado">Enviando...</p>}
-        {reponse && <p className="enviado">"Los datos han sido enviados"</p>}
+        {loading && <p className="enviado">{t("form.Enviando")}</p>}
+        {reponse && <p className="enviado">{t("form.Enviado")}</p>}
         
         </div>
      

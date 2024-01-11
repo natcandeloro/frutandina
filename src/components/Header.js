@@ -1,57 +1,57 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/Header.css";
-import LogoBlanco from "../assets/statics/frutandinalogoBLANCO 1.png"
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import LogoBlanco from "../assets/statics/logo.png";
 import eeuu from "../assets/statics/eeuu.png";
 import arg from "../assets/statics/argentina.png";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useTranslation } from "react-i18next";
 
+
+
+
 export default function Header(){
   const [t, i18next] = useTranslation("nosotros");
   const handleChangeLanguage = (language) => {
     i18next.changeLanguage(language);
+    localStorage.setItem('language', language);
   };
+  const [expanded, setExpanded] = useState(false);
+
+  const handleToggle = () => setExpanded(!expanded);
+
+  const handleClose = () => setExpanded(false);
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    handleClose();
+  };
+  const SomeComponent = () => {
+    const { i18n } = useTranslation();
+    console.log('Current language:', i18n.language);}
+  
     return(
         <header>
-            <Navbar expand="lg" className="bg-body-tertiary row row-nav">
+            <Navbar expand="lg" expanded={expanded} className="bg-body-tertiary row row-nav">
         <div className="col-4 div-logo">
-          <Navbar.Brand to="/" href="/#home"><img src={LogoBlanco} alt="Logo Frutandina" className="logoNegro" /></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/#somos"><img src={LogoBlanco} alt="Logo Frutandina" className="logo" onClick={scrollToTop}/></Navbar.Brand>
         </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav light" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
-          <div className="col-8">
+          <div className="col-8 nav-res">
             <Nav className="me-auto">
-            <NavDropdown title={t("header.somos")} id="basic-nav-dropdown">
-              <NavDropdown.Item to="/"  href="/#somos">
-                ¿Quienes somos? 
-              </NavDropdown.Item>
-              <NavDropdown.Item to="/"  href="/#valores">Valores</NavDropdown.Item>
-              <NavDropdown.Item to="/" href="/#certificaciones">
-                Certificaciones
-              </NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title={t("header.productos")} id="basic-nav-dropdown">
-              <NavDropdown.Item to="/productos"  href="/productos#variedades">
-                Variedades
-              </NavDropdown.Item>
-              <NavDropdown.Item to="/productos"  href="/productos#productos">Productos</NavDropdown.Item>
-              <NavDropdown.Item to="/productos" href="/productos#produccion">
-                Producción
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#contacto">{t("header.contacto")}</Nav.Link>
+            <Nav.Link as={Link} to="/" onClick={scrollToTop}>{t("header.somos")} </Nav.Link>
+            <Nav.Link as={Link} to="/productos" onClick={handleClose}>{t("header.productos")}</Nav.Link>
+            <Nav.Link href="#contacto" onClick={handleClose}>{t("header.contacto")}</Nav.Link>
             {i18next.language !== 'es' && (
         <button onClick={() => handleChangeLanguage('es')}>
-          ES <img src={arg} alt="Bandera de Argentina" className="banderas" />
+          ES<img src={arg} alt="Bandera de Argentina" className="banderas" />
         </button>
       )}
 
       {i18next.language !== 'en' && (
-        <button onClick={() => handleChangeLanguage('en')}>
-          EN <img src={eeuu} alt="Bandera de Estados Unidos" className="banderas" />
+        <button onClick={() => handleChangeLanguage('en')} >
+          EN<img src={eeuu} alt="Bandera de Estados Unidos" className="banderas" />
         </button>
       )}
           </Nav>

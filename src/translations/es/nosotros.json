@@ -4,6 +4,27 @@
         "weAre": "Frutandina S.A. es una empresa familiar que tiene sus orígenes en el año 1961. La empresa está orientada a la elaboración de pasas de uva de calidad, con destino a mercados internacionales de alta exigencia."
     },
 
+    "Vision":{
+        "title": "NUESTRA VISIÓN",
+        "body": "Producir y comercializar productos alimenticios de excelente calidad para garantizar la satisfacción de nuestros clientes."
+    },
+
+    "Mision":{
+        "title": "NUESTRA MISIÓN",
+        "body": "Somos una empresa responsable, transparente y sostenible, de fuertes valores, que busca satisfacer las necesidades de nuestros clientes trabajando eficientemente, con amplia presencia en el mercado tanto nacional como internacional, buscando el bien común de la sociedad y el bien particular de quienes colaboramos con ella."
+    },
+
+    "Valores": {
+        "title": "Nuestros Valores",
+        "1": "Compromiso con la calidad",
+        "2": "Ética empresarial",
+        "3": "Responsabilidad",
+        "3-1": "Social",
+        "4": "Creatividad e innovación",
+        "4-1": " innovación",
+        "5": "Trabajo en equipo"
+    },
+
     "certificaciones": {
         "title": "CERTIFICACIONES",
         "body": "La calidad e inocuidad de nuestros productos son dos aspectos fundamentales para Frutandina S.A. Es por esto que trabajamos con los más altos estándares de seguridad alimentaria, y nuestros procesos productivos se encuentran certificados con el grado (AA.) que es la máxima calificación del standar BRCGS Food.", 
@@ -16,7 +37,12 @@
     "header": {
         "somos": "NOSOTROS", 
         "productos": "PRODUCTOS",
-        "contacto": "CONTACTO"
+        "contacto": "CONTACTO",
+        "Somos": "¿Quienes somos?",
+        "valores": "Valores",
+        "certificaciones": "CERTIFICACIONES",
+        "variedades": "Variedades",
+        "produccion": "Producción"
     },
 
     "slogan": {
@@ -39,9 +65,22 @@
         "Mensaje": "Escribe tu mensaje...",
         "Enviar": "Enviar",
         "Enviando": "Enviando",
-        "Enviado": "Los datos han sido enviados"
+        "Enviado": "Los datos han sido enviados",
+        "Requerido": "El campo es requerido."
+    },
+
+    "Productos": {
+        "Variedades": "NUESTRAS VARIEDADES",
+        "Presentaciones": "NUESTRAS PRESENTACIONES",
+        "Produccion": "Producción",
+        "Body": "La empresa se encuentra ubicada en la localidad de Albardón en la provincia de San Juan, en la República Argentina. Las características del lugar, son un clima seco con temperaturas de 45º C en verano y menos 6º C en invierno, las propiedades de su suelo, sumado al aporte del riego con agua del deshielo de la Cordillera de los Andes, articulan las condiciones óptimas para el cultivo y secado de las uvas."
+    },
+
+    "variedades": {
+    "1": "ARIZUL: MEDIANAS, CHICAS Y EXTRACHICAS",
+    "2": "FLAME: MEDIANAS, CHICAS Y EXTRACHICAS",
+    "3": "SUPERIOR JUMBO",
+    "4": "SULTANINA RUBIA",
+    "5": "SULTANINA: MEDIANAS, CHICAS Y EXTRACHICAS"
     }
-
-    
-
 }

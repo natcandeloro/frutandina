@@ -4,6 +4,27 @@
         "weAre": "Frutandina S.A. is a family business which started back in 1961. The aim of the company is to produce high-quality raisins, which will later be sent to international markets with high demands. "
     }, 
 
+    "Vision":{
+        "title": "VISION",
+        "body": "To produce and commercialize food products of the highest quality to ensure that our customers needs are met. "
+    },
+
+    "Mision":{
+        "title": "MISION",
+        "body": "We are a very responsible, transparent and sustainable company. Our strong values are the driving force in meeting the needs of our clients. In order to achieve this, we work efficiently, both in the national and international market, seeking the common good of society and the particular one of those who are doing its part in building it."
+    },
+
+    "Valores": {
+        "title": "Values",
+        "1": "Commitment to the quality of our products ann services",
+        "2": "Business ethics",
+        "3": "Social",
+        "3-1": "responsibility",
+        "4": "Creativity and ",
+        "4-1": "innovation",
+        "5": "Teamwork"
+    },
+
     "certificaciones": {
         "title": "CERTIFICATIONS",
         "body": "The quality and safety of our products are two fundamental aspects for Frutandina S.A. That is why we work with the highest food safety standards, and our production processes are certified with the (AA) grade, which is the highest qualification of the BRCGS Food standard. ",
@@ -16,14 +37,19 @@
     "header": {
         "somos": "OUR COMPANY", 
         "productos": "PRODUCTS",
-        "contacto": "CONTACT"
+        "contacto": "CONTACT",
+        "Somos": "About us?",
+        "valores": "Values",
+        "certificaciones": "CERTIFICATIONS",
+        "variedades": "Varieties",
+        "produccion": "Production"
     },
 
     "slogan": {
-        "1": "Since ",
-        "2": "1961",
-        "3": "exporting raisins",
-        "4": " to the world"
+        "1": " exporting raisins",
+        "2": "",
+        "3": "to the world",
+        "4": "Since 1961"
     },
 
     "footer": {
@@ -39,6 +65,22 @@
         "Mensaje": "Write your message...",
         "Enviar": "Send",
         "Enviando": "Sending",
-        "Enviado": "Data has been sent."
+        "Enviado": "Data has been sent.",
+        "Requerido": "The field is required."
+    },
+
+    "Productos": {
+        "Variedades": "OUR VARIETIES",
+        "Presentaciones": "BRANDS AND PACKAGING",
+        "Produccion": "PRODUCTION",
+        "Body": "The company is located in Albardón, San Juan province, Argentina. The place experiences dry weather, with temperatures of 45° C (113° F) in the summer and -6° C (21° F) in the winter. The characteristics of its soil. apart from the contribution of snowmelt water from the Andes, provide the most favourable conditions for growing and drying the grapes. "
+    },
+
+    "variedades": {
+            "1": "ARIZUL: MEDIUM, SMALL Y EXTRASMALL",
+            "2": "FLAME: MEDIUM, SMALL Y EXTRASMALL",
+            "3": "JUMBO",
+            "4": "GOLDEN",
+            "5": "THOMPSON: MEDIUM, SMALL Y EXTRASMALL"
+        }
     }
-}

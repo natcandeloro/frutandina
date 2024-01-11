@@ -1,15 +1,19 @@
 
 .float{
-
-    /* background-color: #00bb2d; verde más oscuro*/ 
     bottom:40px;
-	height:60px;
+	height:50px;
     position:fixed;
-	right:50px;
-    width:60px;
+	right:40px;
+    width:50px;
     z-index:100;
-   /* box-shadow: 0 15px 25px rgba(0,0,0,.5);*/
+}
 
+@media only screen and (max-width: 900px){
+    .float{
+        right:25px;
+        height:45px;
+        width:45px;
+    }
 }
 
 
